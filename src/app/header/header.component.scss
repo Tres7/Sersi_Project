@@ -1,0 +1,56 @@
+#Bina {
+    white-space: nowrap;
+}
+
+.imag {
+    position: relative;
+    top: 0px;
+    /* Déplace l'image de 20 pixels vers le bas */
+    left: 0px;
+    /* Déplace l'image de 30 pixels vers la droite */
+    margin-left: -100px;
+    margin-top: -5px;
+    height: 100px;
+    width: 400px;
+
+}
+
+.nav-item active.navbar-link {
+    background-color: rgb(18, 56, 3);
+    /* Couleur de fond rouge lors du passage du curseur */
+    /*color: rgb(2, 41, 5);*/
+    /* Couleur du texte blanche lors du passage du curseur */
+    /* Autres styles à appliquer lors du passage du curseur */
+
+}
+
+.navbar-nav {
+    margin-top: -30px;
+    /* Déplace la barre de navigation de 10 pixels vers le haut en ajoutant une marge supérieure */
+    /* ou */
+    /*padding-top: 10px;*/
+    /* Déplace la barre de navigation de 10 pixels vers le haut en ajoutant un remplissage supérieur */
+}
+
+/* Couleur par défaut des onglets */
+.default-color {
+    color: #000;
+    /* Couleur du texte par défaut */
+    background-color: #fff;
+    /* Couleur de fond par défaut */
+}
+
+/* Couleur par défaut pour les éléments de navigation */
+.navbar-nav .nav-link {
+    color: black;
+}
+
+/* Couleur au survol pour un élément de navigation à la fois */
+.navbar-nav .nav-link:hover {
+    color: green;
+}
+
+header {
+    background-color: rgb(207, 207, 161);
+    /* Applique une couleur verte claire au footer */
+}
