@@ -8,6 +8,13 @@ import { FormationComponent } from './formation/formation.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { HomeComponent } from './home/home.component';
 import { FarineComponent } from './farine/farine.component';
+import { BiscuitComponent } from './biscuit/biscuit.component';
+import { ChampignonSecheComponent } from './champignon-seche/champignon-seche.component';
+import { ChampignonFraisComponent } from './champignon-frais/champignon-frais.component';
+import { ChampignonPoudreComponent } from './champignon-poudre/champignon-poudre.component';
+import { SemenceComponent } from './semence/semence.component';
+import { SachetComponent } from './sachet/sachet.component';
+import { EmComponent } from './em/em.component';
 
 const routes: Routes = [
   { path: 'products', component: ProductsComponent },
@@ -15,8 +22,14 @@ const routes: Routes = [
   { path: 'formation', component: FormationComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'farine', component: FarineComponent }
-  /*{ path: 'accueil', component: AccueilComponent }*/
+  { path: 'farine', component: FarineComponent },
+  { path: 'biscuit', component: BiscuitComponent },
+  { path: 'champignon-seche', component: ChampignonSecheComponent },
+  { path: 'champignon-frais', component: ChampignonFraisComponent },
+  { path: 'champignon-poudre', component: ChampignonPoudreComponent },
+  { path: 'semence', component: SemenceComponent },
+  { path: 'sachet', component: SachetComponent },
+  { path: 'em', component: EmComponent }
 ]
 
 @NgModule({

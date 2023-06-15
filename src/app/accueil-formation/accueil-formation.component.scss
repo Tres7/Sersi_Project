@@ -1,11 +1,32 @@
 .slider_section {
-    white-space: nowrap;
-    /* Empêche le retour à la ligne automatique */
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    padding: 200px;
+    /*background-color: purple;*/
+    image-rendering: crisp-edges;
+    -webkit-image-rendering: crisp-edges;
+    /* Pour une compatibilité avec certains navigateurs WebKit */
+    image-rendering: pixelated;
+    -webkit-image-rendering: pixelated;
+    /* Pour une compatibilité avec certains navigateurs WebKit */
 }
 
-.slider_section {
-    background-size: 700px 900px;
-    /* Spécifiez la largeur et la hauteur souhaitées */
-    background-repeat: no-repeat;
-    /* Empêche la répétition de l'image de fond */
+.detail-box {
+    justify-content: center;
+    align-items: center;
 }
+
+/*.detail-box h1 {
+    margin-top: -190px;
+    margin-left: -120px;
+}*/
+
+/*.detail-box p {
+    color: white;
+    margin-left: -120px;
+    background-color: rgba(0, 0, 0, 0.5);*/
+/* Modifier la couleur de fond et l'opacité en fonction de vos besoins */
+
+
+/*}*/
