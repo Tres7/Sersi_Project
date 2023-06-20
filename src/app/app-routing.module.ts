@@ -15,6 +15,9 @@ import { ChampignonPoudreComponent } from './champignon-poudre/champignon-poudre
 import { SemenceComponent } from './semence/semence.component';
 import { SachetComponent } from './sachet/sachet.component';
 import { EmComponent } from './em/em.component';
+import { LoginComponent } from './login/login.component';
+import { AdministrateurComponent } from './administrateur/administrateur.component';
+import { AuthentificationGuard } from './authentification.guard';
 
 const routes: Routes = [
   { path: 'products', component: ProductsComponent },
@@ -29,7 +32,9 @@ const routes: Routes = [
   { path: 'champignon-poudre', component: ChampignonPoudreComponent },
   { path: 'semence', component: SemenceComponent },
   { path: 'sachet', component: SachetComponent },
-  { path: 'em', component: EmComponent }
+  { path: 'em', component: EmComponent },
+  { path: 'connexion', component: LoginComponent },
+  { path: 'admin', component: AdministrateurComponent }
 ]
 
 @NgModule({

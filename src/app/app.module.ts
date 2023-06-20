@@ -22,6 +22,9 @@ import { EmComponent } from './em/em.component';
 import { AccueilFormationComponent } from './accueil-formation/accueil-formation.component';
 import { AccueilImmoComponent } from './accueil-immo/accueil-immo.component';
 import { AccueilAutoComponent } from './accueil-auto/accueil-auto.component';
+import { LoginComponent } from './login/login.component';
+import { AdministrateurComponent } from './administrateur/administrateur.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -43,13 +46,16 @@ import { AccueilAutoComponent } from './accueil-auto/accueil-auto.component';
     EmComponent,
     AccueilFormationComponent,
     AccueilImmoComponent,
-    AccueilAutoComponent
+    AccueilAutoComponent,
+    LoginComponent,
+    AdministrateurComponent
   ],
   imports: [
     BrowserModule,
     CommonModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    ReactiveFormsModule
 
   ],
   providers: [],
