@@ -2,7 +2,7 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 300px;
+    padding: 200px;
     /*background-color: purple;*/
     image-rendering: crisp-edges;
     -webkit-image-rendering: crisp-edges;
@@ -15,6 +15,15 @@
 .detail-box {
     justify-content: center;
     align-items: center;
+}
+
+.detail-box p {
+    color: white;
+    /*margin-left: -120px;*/
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Modifier la couleur de fond et l'opacité en fonction de vos besoins */
+
+
 }
 
 /*.detail-box h1 {

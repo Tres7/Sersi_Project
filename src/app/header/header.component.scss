@@ -141,3 +141,34 @@ header {
 .login input[type="submit"]:focus {
     border-color: #05a;
 }
+
+/*personnalisation de la barre de navigation du pop up*/
+/*.modal-body {
+    overflow-y: auto;
+    max-height: 300px;
+}*/
+
+.popup-content {
+    overflow-y: auto;
+    /* Activer la barre de défilement verticale */
+    max-height: 300px;
+    /* Définir une hauteur maximale pour le contenu du pop-up */
+}
+
+/* Styles pour la barre de défilement */
+.popup-content::-webkit-scrollbar {
+    width: 8px;
+    /* Largeur de la barre de défilement */
+}
+
+.popup-content::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Couleur du curseur */
+    border-radius: 4px;
+    /* Bordure arrondie du curseur */
+}
+
+.popup-content::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    /* Couleur de la piste de défilement */
+}

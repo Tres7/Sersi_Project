@@ -17,7 +17,9 @@ declare var window: any
 export class HeaderComponent {
   formModalLogin: any
   formModalSignup: any
+
   ngOnInit() {
+    /*Login*/
     this.formModalLogin = new window.bootstrap.Modal(document.getElementById("login")
     );
     this.loginForm = this.formBuilder.group({
@@ -30,6 +32,7 @@ export class HeaderComponent {
     );
     this.loginForm = this.formBuilder.group({
       nom_ut: ['', Validators.required],
+      mail: ['', Validators.required],
       password: ['', Validators.required]
     });
 
@@ -37,12 +40,19 @@ export class HeaderComponent {
 
   openLogin() {
     this.formModalLogin.show();
+    this.formModalSignup.hide();
   }
 
+  /*closeLogin() {
+    this.formModalLogin.hide();
+   
+  }*/
   /*Inscription*/
   openSign() {
     this.formModalSignup.show();
+    this.formModalLogin.hide();
   }
+
   loginForm!: FormGroup;
   isSubmitted = false;
 
